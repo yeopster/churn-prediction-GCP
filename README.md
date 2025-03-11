@@ -42,3 +42,6 @@ project-repo/
 │── .gitignore                           
 ```
 
+## Visualization
+Visualization of the project can be view:
+https://lookerstudio.google.com/reporting/9ee5bac5-55a7-4ff0-bff3-df71be09580c/page/KI47E
