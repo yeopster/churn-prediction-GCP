@@ -44,3 +44,18 @@ project-repo/
 ## Visualization
 Visualization of the project can be view:
 https://lookerstudio.google.com/reporting/9ee5bac5-55a7-4ff0-bff3-df71be09580c/page/KI47E
+
+## Setup & Installation
+1. cd your-repo
+2. Install dependencies:
+pip install -r requirements.txt
+3. Set up GCP authentication:
+gcloud auth application-default login
+4. Configure GCP services in config/gcp_config.yaml.
+5. Run the pipeline step-by-step:
+   - Data ingestion: Run data/kaggle_dataset_download.ipynb
+   - ETL processing: Execute dataflow/apache_beam_pipeline.py
+   - SQL analysis: Run queries in bigquery/sql_analysis.sql
+   - Model training: Open model_training/churn_prediction.ipynb
+     
+
