@@ -26,13 +26,11 @@ project-repo/
 │── data/
 │   ├── kaggle_dataset_download.ipynb   
 │── dataflow/
-│   ├── apache_beam_pipeline.py         
-│   ├── dataflow_runner.py             
+│   ├── apache_beam_pipeline.py                   
 │── bigquery/
 │   ├── sql_analysis.sql               
 │── model_training/
-│   ├── model_training.ipynb          
-│   ├── model_deployment.py            
+│   ├── churn_prediction.ipynb                      
 │── visualization/
 │   ├── looker_studio_dashboard.md     
 │── config/
@@ -41,6 +39,7 @@ project-repo/
 │── requirements.txt                  
 │── .gitignore                           
 ```
+![Data Workflow Structure](Churn_Workflow.jpeg)
 
 ## Visualization
 Visualization of the project can be view:
